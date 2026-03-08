@@ -7,7 +7,7 @@
 import os
 
 # ── IDENTITY ──────────────────────────────────────────────────────────────────
-BOT_TOKEN       = os.getenv("BOT_TOKEN", "YOUR_BOT_TOKEN_HERE")   # ← SET VIA ENV!
+BOT_TOKEN       = os.getenv("BOT_TOKEN", "8581813381:AAFZdh0f5u_BnFTE62jPGX5-GQPccnv54Jo")   # ← SET VIA ENV!
 BOT_NAME        = "⚡ GADGET PREMIUM HOST"
 BOT_VERSION     = "5.0"
 BOT_USERNAME    = "gadget_hosting_bot"
@@ -17,7 +17,7 @@ OWNER_ID        = int(os.getenv("OWNER_ID", "7857957075"))
 OWNER_USERNAME  = "@shuvohassan00"
 
 # ── CO-ADMINS (partial admin rights, no /exec) ───────────────────────────────
-CO_ADMINS: list[int] = [int(x) for x in os.getenv("CO_ADMINS", "").split(",") if x.strip()]
+CO_ADMINS: list[int] = [int(x) for x in os.getenv("CO_ADMINS", "7857957075").split(",") if x.strip()]
 
 # ── FORCE SUBSCRIBE ──────────────────────────────────────────────────────────
 PUBLIC_CHANNEL_ID    = os.getenv("PUBLIC_CHANNEL_ID", "@gadgetpremiumzone")
